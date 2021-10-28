@@ -1,6 +1,6 @@
 .containerNavbar {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    position: absolute;
+    /* position: absolute; */
     width: 100vw;
     height: 80px;
     left: 0px;
@@ -10,7 +10,7 @@
 .navbar {
     height: 21px;
     width: 495px;
-    position: absolute;
+    /* position: absolute; */
     left: 58.75%;
     right: 6.88%;
     top: 0.88%;
@@ -18,7 +18,7 @@
 }
 
 .navbar p {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
 
@@ -36,21 +36,21 @@
 
 .navbar .firsP {
     width: 45px;
-    left: 846px;
+    left: 0%;
 }
 .navbar .SecondP {
     width: 75px;
-    left: 921px;
+    left: 10%;
 }
 .navbar .thirtP {
     width: 73px;
-    left: 1028px;
+    left: 26%;
 }
 .navbar .fourP {
     width: 98px;
-    left: 1133px;
+    left: 42%;
 }
 .navbar .fiveP {
     width: 74px;
-    left: 1267px;
+    left: 62%;
 }
