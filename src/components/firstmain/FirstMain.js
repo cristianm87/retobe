@@ -10,7 +10,7 @@ const FirstMain = () => {
     return (
         <div className="container-fluid">
             <div className="d-flex img-FirstMain-container">
-                <img src={ HomeImg }/>
+                <img src={ HomeImg } alt="IMG_20210303_174529532_HDR.jpg"/>
             </div>           
         </div>
     )

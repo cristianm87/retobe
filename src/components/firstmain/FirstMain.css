@@ -1,5 +1,11 @@
 .img-FirstMain-container {
-    height: 620px;
+    height: 1020px;
     width: 100vw;
     background-color: rgba(196, 196, 196, 1);
 }
+
+.img-FirstMain-container img {
+    width: 100%;
+    height: 100%;
+}
+
