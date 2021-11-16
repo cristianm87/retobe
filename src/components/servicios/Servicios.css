@@ -1,0 +1,35 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: local('GOTHICB'),
+    url(../../fonts/century_gothic/GOTHICB.TTF) format('TTF');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.servicios-text-title {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-size: 16px;
+}
+.servicios-text-subtitle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.servicios-row {
+  background-color: #fffaf3 !important;
+}
+
+.servicios-img-box {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios-text-box {
+  text-align: center;
+}
