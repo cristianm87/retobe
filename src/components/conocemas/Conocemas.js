@@ -1,7 +1,7 @@
 import React from 'react';
-import './Conocemas.css';
+import './ConoceMas.css';
 
-const Conocemas = () => {
+const ConoceMas = () => {
   return (
     <section className="conocemas">
       <div className="container-xxl">
@@ -31,4 +31,4 @@ const Conocemas = () => {
   );
 };
 
-export default Conocemas;
+export default ConoceMas;

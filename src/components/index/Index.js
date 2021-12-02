@@ -1,11 +1,13 @@
 import React from 'react';
 import Servicios from '../servicios/Servicios.js';
-import Conocemas from '../conocemas/Conocemas.js';
+import ConoceMas from '../conocemas/ConoceMas.js';
+import MasVendidos from '../masvendidos/MasVendidos.js';
 const index = () => {
   return (
     <>
       <Servicios />
-      <Conocemas />
+      <ConoceMas />
+      <MasVendidos />
     </>
   );
 };

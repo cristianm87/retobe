@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.navbar {
-  height: 80px;
-}
-
 .navbar-link {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;

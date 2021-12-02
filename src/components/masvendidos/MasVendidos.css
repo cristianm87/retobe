@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: local('GOTHICB'),
+    url(../../fonts/century_gothic/GOTHICB.TTF) format('TTF');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.masvendidos-item-bg {
+  width: 260px;
+  height: 260px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1199px) {
+  .masvendidos-item-bg {
+    width: 360px;
+    height: 360px;
+  }
+  .masvendidos-item-wrapper {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .masvendidos-item-bg {
+    width: 310px;
+    height: 310px;
+  }
+  .masvendidos-item-wrapper {
+    max-width: 310px;
+  }
+}
+
+.masvendidos-row {
+  padding: 0 3rem 0 3rem;
+}
+
+.masvendidos-titulo-box {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masvendidos-titulo {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  color: #4f4f4f;
+  font-size: 36px;
+  margin: 0 1.5rem 0 1.5rem;
+}
+@media screen and (max-width: 420px) {
+  .masvendidos-titulo {
+    font-size: 32px;
+    margin: 0 1rem 0 1rem;
+  }
+}
+
+.masvendidos-item-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #4f4f4f;
+  margin: 15px 0 2px 0;
+  padding: 0 5px 0 5px;
+}
+
+.masvendidos-item-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4f4f4f;
+  margin: 0 0 20px 0;
+  padding: 0 5px 0 5px;
+  line-height: 1.2;
+}
